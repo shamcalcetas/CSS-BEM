@@ -1,0 +1,50 @@
+body {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+/* Block */
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Element */
+.button_icon {
+    margin: auto;
+}
+
+/* Block Modifier */
+.button--primary {
+    background-color: white;
+    color: black;
+}
+
+/* Element Modifier */
+.button_icon--large {
+    font-size: 5px;
+}
+
+.container {
+    background-image: url(https://png.pngtree.com/background/20230823/original/pngtree-vintage-camera-inspired-abstract-background-in-stunning-3d-render-picture-image_4787189.jpg);
+    border: 1px solid black;
+    width: 300px;
+}
+
+.form {
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+}
